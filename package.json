@@ -1,0 +1,45 @@
+{
+	"name": "nuxt-app",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"prettier": "prettier --write .",
+		"format": "npm-run-all -p lint:fix prettier",
+		"typecheck": "npx nuxt typecheck"
+	},
+	"dependencies": {
+		"@mdi/font": "^7.4.47",
+		"@nuxt/content": "^3.7.1",
+		"@nuxt/eslint": "^1.9.0",
+		"@nuxt/fonts": "^0.11.4",
+		"@nuxt/icon": "^2.0.0",
+		"@nuxt/image": "^1.11.0",
+		"@nuxt/scripts": "^0.11.13",
+		"@nuxt/test-utils": "^3.19.2",
+		"@tailwindcss/vite": "^4.1.13",
+		"@unhead/vue": "^2.0.14",
+		"better-sqlite3": "^12.2.0",
+		"eslint": "^9.35.0",
+		"nuxt": "^4.1.2",
+		"sass": "^1.92.1",
+		"tailwindcss": "^4.1.13",
+		"vite-plugin-vuetify": "^2.1.2",
+		"vue": "^3.5.21",
+		"vue-router": "^4.5.1",
+		"vuetify": "^3.10.2"
+	},
+	"devDependencies": {
+		"prettier": "^3.6.2",
+		"prettier-plugin-organize-imports": "^4.2.0",
+		"prettier-plugin-tailwindcss": "^0.6.14",
+		"typescript": "^5.9.2",
+		"vue-tsc": "^3.0.7"
+	}
+}
